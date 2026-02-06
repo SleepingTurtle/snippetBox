@@ -1,0 +1,16 @@
+meta {
+  name: GET Snippet Create
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{BaseURL}}/snippet/create
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
